@@ -8,7 +8,7 @@ namespace FluntValidations
         static void Main(string[] args)
         {
             var addres = new Address("Rua Tucuruí", 0, "Porto Velho", "Rondônia");
-            var customer = new Customer("Produto X", 17, addres);
+            var customer = new Customer("Vitor Moschetta", 17, addres);
 
             if (!customer.IsValid)
             {
@@ -18,7 +18,7 @@ namespace FluntValidations
                 return;
             }
 
-            Console.WriteLine("Produto é válido!");
+            Console.WriteLine("Customer is valid!");
         }
     }
 }
