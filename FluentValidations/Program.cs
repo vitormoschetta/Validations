@@ -15,7 +15,9 @@ namespace FluentValidations
 
             if (!validationResult.IsValid)
             {
-                Console.WriteLine(string.Join(" | ", validationResult.Errors));
+                foreach (var error in validationResult.Errors)
+                    Console.WriteLine(error.ErrorMessage);
+
                 return;
             }
 

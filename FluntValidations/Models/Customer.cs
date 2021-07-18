@@ -22,7 +22,7 @@ namespace FluntValidations.Models
         public Guid Id { get; private set; }
         public string Name { get; private set; }
         public int Age { get; private set; }
-        public Address Address { get; set; }
+        public Address Address { get; private set; }
 
 
         public void Validate()
