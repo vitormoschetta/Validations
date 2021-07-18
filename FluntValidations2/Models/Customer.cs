@@ -15,9 +15,9 @@ namespace FluntValidations2.Models
                 Id = Guid.NewGuid();            
         }
 
-        public Guid Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public Address Address { get; set; }        
+        public Guid Id { get; private set; }
+        public string Name { get; private set; }
+        public int Age { get; private set; }
+        public Address Address { get; private set; }        
     }
 }

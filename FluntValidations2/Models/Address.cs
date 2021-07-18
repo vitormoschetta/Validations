@@ -10,9 +10,9 @@ namespace FluntValidations2.Models
             State = state;            
         }
 
-        public string Street { get; set; }
-        public int Number { get; set; }
-        public string City { get; set; }
-        public string State { get; set; }       
+        public string Street { get; private set; }
+        public int Number { get; private set; }
+        public string City { get; private set; }
+        public string State { get; private set; }       
     }
 }
