@@ -1,8 +1,8 @@
 ﻿using System;
-using FluentValidations.Models;
-using FluentValidations.Validations;
+using FluntValidations2.Models;
+using FluntValidations2.Validations;
 
-namespace FluentValidations
+namespace FluntValidations2
 {
     class Program
     {
@@ -11,11 +11,13 @@ namespace FluentValidations
             var address = new Address("Rua Tucuruí", 0, "Porto Velho", "Rondônia");
             var customer = new Customer("Produto X", 17, address);
 
-            var validationResult = new CustomerValidator().Validate(customer);
+            var validationResult = new CustomerValidator(customer);
 
             if (!validationResult.IsValid)
             {
-                Console.WriteLine(string.Join(" | ", validationResult.Errors));
+                foreach (var notification in validationResult.Notifications)
+                    Console.WriteLine("'{0}' {1}", notification.Key, notification.Message);
+
                 return;
             }
 

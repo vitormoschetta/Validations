@@ -27,8 +27,6 @@ namespace FluntValidations.Models
 
         public void Validate()
         {
-            AddNotifications(Address.Notifications);
-
             AddNotifications(new Contract<Customer>()
                 .Requires()
                 .IsNotEmpty(Id, "Customer.Id", "não pode ser vazio.")
@@ -37,6 +35,8 @@ namespace FluntValidations.Models
                 .IsNotNull(Age, "Customer.Age", "precisa ser informado")
                 .IsBetween(Age, 18, 60, "Customer.Age", "precisa ser maior de idade.")
             );
+
+            AddNotifications(Address.Notifications);
         }
     }
 }

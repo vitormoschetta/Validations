@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluntValidations", "FluntVa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidations", "FluentValidations\FluentValidations.csproj", "{C948558E-9B01-46DD-A677-B94178E2B84B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluntValidations2", "FluntValidations2\FluntValidations2.csproj", "{03722C22-BA55-4957-B068-6332439F6D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{C948558E-9B01-46DD-A677-B94178E2B84B}.Release|x64.Build.0 = Release|Any CPU
 		{C948558E-9B01-46DD-A677-B94178E2B84B}.Release|x86.ActiveCfg = Release|Any CPU
 		{C948558E-9B01-46DD-A677-B94178E2B84B}.Release|x86.Build.0 = Release|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Debug|x64.Build.0 = Debug|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Debug|x86.Build.0 = Debug|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Release|x64.ActiveCfg = Release|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Release|x64.Build.0 = Release|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Release|x86.ActiveCfg = Release|Any CPU
+		{03722C22-BA55-4957-B068-6332439F6D59}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
